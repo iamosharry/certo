@@ -12,12 +12,12 @@ const Testimonials = ({
 }) => {
   return (
     <>
-      <section class="testimonials p-5  md:px-16 pt-16 bg-[#ffc247]">
-        <h2 className="w-full font-poppins hero__h1 text-[25px] leading-[1.3em]  md:w-[500px] lg:w-[700px]  md:text-[40px] md:leading-[1.2em] font-extrabold mb-8">
+      <section class="testimonials  pt-16 bg-[#ffc247]">
+        <h2 className="pl-5 md:pl-16 w-full font-poppins hero__h1 text-[30px] leading-[1.3em]  md:w-[500px] lg:w-[700px]  md:text-[40px] md:leading-[1.2em] font-extrabold md:mb-2">
           Loved by thousands of iPhone and Android users alike
         </h2>
-        <div class="testimonial-cards flex space-x-2 overflow py-10  mb-8">
-          <div class="testimonial-card shadow-lg md:shadow-xl w-[310px]  md:w-[400px] px-5 py-7 bg-white rounded-[20px] flex-shrink-0 ">
+        <div class="testimonial-cards p-5  md:px-16    flex space-x-2 overflow py-10 mb-8">
+          <div class="testimonial-card  shadow-lg md:shadow-xl w-[310px]  md:w-[400px] px-5 py-7 bg-white rounded-[20px] flex-shrink-0 ">
             <div className="flex star mb-3">
               <FaStar />
               <FaStar />
@@ -77,7 +77,7 @@ const Testimonials = ({
             </p>
           </div>
         </div>
-        <div class="trusted-logos six eight lg:flex lg:items-center lg:justify-normal">
+        <div class="trusted-logos six eight lg:flex lg:items-center lg:justify-normal pl-5 md:pl-16">
           <p className="mb-10 hero__h1 text-2xl font-bold flex items-center space-x-2">
             <span>Featured in</span>
             <span className=" bg-white rounded-xl">
